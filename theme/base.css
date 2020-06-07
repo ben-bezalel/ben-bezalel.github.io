@@ -3,3 +3,22 @@ div.container {
 	margin-right:auto;
 	width: 600px;
 }
+
+body {
+	font-family: 'caslon';
+	background-color: #BBBBBB;
+}
+
+h1 {
+	font-family: 'hkgrotesk';
+}
+
+@font-face {
+	font-family: 'caslon';
+	src: url(librecaslontext-regular.woff);
+}
+
+@font-face {
+	font-family: 'hkgrotesk';
+	src: url(hkgrotesk-regular.woff); 
+}
