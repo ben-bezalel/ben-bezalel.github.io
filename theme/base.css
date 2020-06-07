@@ -3,6 +3,17 @@ div.container {
 	margin-right:auto;
 	width: 600px;
 	background-color: #EEEEEE;
+	padding: 25px 25px 75px 25px;
+}
+
+div.row {
+	-webkit-column-count:2;
+	-moz-column-count:2;
+	column-count:2;
+}
+
+hr {
+	border-top: 3px double #8c8b8b;
 }
 
 body {
