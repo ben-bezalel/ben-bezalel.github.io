@@ -50,3 +50,18 @@ h1, h2 {
 	font-family: 'hkgrotesk';
 	src: url(hkgrotesk-regular.woff); 
 }
+
+@media screen and (min-width: 30rem) {
+body {
+	display: flex;
+}
+	
+div.container {
+	display: flex;
+	flex-direction: column;
+	max-width: 75rem;
+	margin: auto;
+}
+
+}
+
